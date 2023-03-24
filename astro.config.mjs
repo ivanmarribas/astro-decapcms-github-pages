@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'ivanmarribas.github.io',
+	site: 'https://ivanmarribas.github.io',
 	base: '/astro-decapcms-github-pages',
 	integrations: [image(), mdx(), sitemap()],
 });
